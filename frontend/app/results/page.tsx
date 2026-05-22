@@ -65,6 +65,7 @@ export default function ResultsPage() {
           years_experience: 0,
           skills: [],
           location: searchLocation,
+          cv_text: "",
         };
 
         try {
