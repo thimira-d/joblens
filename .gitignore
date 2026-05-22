@@ -1,0 +1,19 @@
+# Backend
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/*.pyc
+backend/*.db
+backend/joblens.db
+backend/2.0.35
+
+# Frontend
+frontend/.env.local
+frontend/node_modules/
+frontend/.next/
+
+# General
+.DS_Store
+*.log
+.qodo
