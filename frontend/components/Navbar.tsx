@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Bookmark, User, Menu, X, LogOut } from "lucide-react";
 
@@ -29,7 +28,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <Image src="/logo/Logotransparent.png" alt="JobLens.online" width={140} height={40} className="object-contain h-25 w-auto" priority />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo/Logotransparent.png" alt="JobLens.online" width={170} height={40} className="object-contain" />
           </Link>
 
           {/* Desktop Nav */}

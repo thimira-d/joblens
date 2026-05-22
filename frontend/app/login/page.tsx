@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Loader2, Eye, EyeOff } from "lucide-react";
 import { authAPI } from "@/lib/api";
@@ -45,7 +44,8 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link href="/">
-            <Image src="/logo/Logotransparent.png" alt="JobLens.online" width={230} height={45} className="object-contain mx-auto mb-6" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo/Logotransparent.png" alt="JobLens.online" width={230} height={45} className="object-contain mx-auto mb-6" />
           </Link>
           <h1 className="font-sora font-bold text-2xl text-[var(--primary-dark)] dark:text-white">Welcome back</h1>
           <p className="text-[var(--text-secondary)] text-sm mt-1">Sign in to your JobLens account</p>
