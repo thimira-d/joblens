@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <Image src="/logo/Joblense logo transparent.png" alt="JobLens.online" width={140} height={40} className="object-contain h-25 w-auto" priority />
+            <Image src="/logo/Logotransparent.png" alt="JobLens.online" width={140} height={40} className="object-contain h-25 w-auto" priority />
           </Link>
 
           {/* Desktop Nav */}

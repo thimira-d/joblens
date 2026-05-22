@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "JobLens.online — AI Job Matching for Fresh Graduates",
   description: "Find jobs that match your skills — not just keywords. AI-powered job matching for fresh graduates.",
-  icons: { icon: "/logo.png" },
+  icons: { icon: "/logo/logoicon.png" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

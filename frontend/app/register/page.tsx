@@ -47,7 +47,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link href="/">
-            <Image src="/logo/Joblense logo transparent.png" alt="JobLens.online" width={230} height={45} className="object-contain mx-auto mb-6" />
+            <Image src="/logo/Logotransparent.png" alt="JobLens.online" width={230} height={45} className="object-contain mx-auto mb-6" />
           </Link>
           <h1 className="font-sora font-bold text-2xl text-[var(--primary-dark)] dark:text-white">Create your account</h1>
           <p className="text-[var(--text-secondary)] text-sm mt-1">Start finding jobs that truly match your skills</p>
